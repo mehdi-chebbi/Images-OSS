@@ -28,6 +28,7 @@ Before you begin, ensure you have the following:
 Before using the scripts, create a `.env` file in the `OSS` folder with your Copernicus API credentials:
 
 **Example `.env` file:**
+
 USERNAME="Example_Username"
 
 PASSWORD="Example_Password"
