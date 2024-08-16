@@ -29,6 +29,7 @@ Before using the scripts, create a `.env` file in the `OSS` folder with your Cop
 
 **Example `.env` file:**
 USERNAME="Example_Username"
+
 PASSWORD="Example_Password"
 
 ## Scripts Description
