@@ -13,7 +13,7 @@ Before you begin, ensure you have the following:
 
 1. Clone the repository
     ```sh
-    git clone https://github.com/yourusername/oss-filtered.git
+    git clone https://github.com/mehdi-chebbi/oss-filtered.git
     ```
 
 2. Install Python 3 if it's not already installed. You can download it from the [official Python website](https://www.python.org/downloads/).
