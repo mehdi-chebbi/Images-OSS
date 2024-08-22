@@ -37,7 +37,7 @@ file_path = 'L2A-IDS-Repeating'
 # Load existing product IDs from the file
 existing_ids = load_existing_ids(file_path)
 
-with open(file_path, 'a') as file:  # Open in append mode to avoid overwriting existing content
+with open(file_path, 'w') as file:  # Open in append mode to avoid overwriting existing content
     while url:
         data = fetch_data(url)
 

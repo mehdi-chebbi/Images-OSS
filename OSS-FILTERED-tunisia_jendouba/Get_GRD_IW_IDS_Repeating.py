@@ -37,7 +37,7 @@ file_path = 'GRD-IW-IDS-Repeating'
 # Load existing product IDs from the file
 existing_ids = load_existing_ids(file_path)
 
-with open(file_path, 'a') as file:
+with open(file_path, 'w') as file:
     while url:
         data = fetch_data(url)
 
