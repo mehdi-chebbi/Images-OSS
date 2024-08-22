@@ -5,12 +5,12 @@ python3 Get_L2A_IDS_Repeating.py
 
 mkdir -p IDS
 
-mv GRD-IW-IDS IDS/
-mv L2A-IDS IDS/
+mv GRD-IW-IDS-Repeating IDS/
+mv L2A-IDS-Repeating IDS/
 
 
 
 
 
-./Tunisia_jendouba_GRD_IW.sh
-./Tunisia_jendouba_L2A.sh
+./Tunisia_jendouba_GRD_IW_Repeating.sh
+./Tunisia_jendouba_L2A_Repeating.sh
