@@ -26,7 +26,6 @@ def save_product_ids(products, file):
         product_id = product.get('Id')
         if product_id:
             file.write(f"Product ID: {product_id}\n")
-            print(f"New Product ID: {product_id}")
 
 today = datetime.now(timezone.utc).date()
 start_date = today - timedelta(days=1)  # Set to 1 day before today
@@ -40,7 +39,7 @@ last_fetched_id = load_last_fetched_id(last_fetched_id_file)
 
 new_ids_found = False
 
-with open('GRD-IW-IDS-Repeating', 'a') as file:
+with open('GRD-IW-IDS', 'w') as file:
     while url:
         data = fetch_data(url)
         if data is None:
